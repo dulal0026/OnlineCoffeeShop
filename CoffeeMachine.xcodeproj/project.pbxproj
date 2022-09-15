@@ -14,13 +14,13 @@
 		CE70996E28D1EFD800CD71EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE70996C28D1EFD800CD71EB /* LaunchScreen.storyboard */; };
 		CE70997928D1EFD900CD71EB /* CoffeeMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE70997828D1EFD900CD71EB /* CoffeeMachineTests.swift */; };
 		CE70998428D1EFD900CD71EB /* CoffeeMachineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE70998328D1EFD900CD71EB /* CoffeeMachineUITests.swift */; };
-		CE70999628D1F0C300CD71EB /* OrderListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE70999528D1F0C300CD71EB /* OrderListVC.swift */; };
-		CE70999E28D1F0DB00CD71EB /* CreateOrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE70999D28D1F0DB00CD71EB /* CreateOrderVC.swift */; };
 		CE7099AA28D2755700CD71EB /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7099A928D2755700CD71EB /* WebService.swift */; };
 		CE7099B028D278A700CD71EB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7099AF28D278A700CD71EB /* Model.swift */; };
 		CE7099B928D27D8300CD71EB /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7099B828D27D8300CD71EB /* OrderViewModel.swift */; };
 		CE7099BE28D27DA000CD71EB /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7099BD28D27DA000CD71EB /* OrderListViewModel.swift */; };
 		CE7099C328D3063400CD71EB /* AddCoffeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7099C228D3063400CD71EB /* AddCoffeeViewModel.swift */; };
+		CE85FE1D28D33D0700D341FD /* CreateOrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE85FE1B28D33D0700D341FD /* CreateOrderVC.swift */; };
+		CE85FE1E28D33D0700D341FD /* OrderListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE85FE1C28D33D0700D341FD /* OrderListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,13 +54,13 @@
 		CE70997F28D1EFD900CD71EB /* CoffeeMachineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeMachineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE70998328D1EFD900CD71EB /* CoffeeMachineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMachineUITests.swift; sourceTree = "<group>"; };
 		CE70998528D1EFD900CD71EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE70999528D1F0C300CD71EB /* OrderListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListVC.swift; sourceTree = "<group>"; };
-		CE70999D28D1F0DB00CD71EB /* CreateOrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderVC.swift; sourceTree = "<group>"; };
 		CE7099A928D2755700CD71EB /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		CE7099AF28D278A700CD71EB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		CE7099B828D27D8300CD71EB /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
 		CE7099BD28D27DA000CD71EB /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
 		CE7099C228D3063400CD71EB /* AddCoffeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeViewModel.swift; sourceTree = "<group>"; };
+		CE85FE1B28D33D0700D341FD /* CreateOrderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateOrderVC.swift; sourceTree = "<group>"; };
+		CE85FE1C28D33D0700D341FD /* OrderListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,9 +111,9 @@
 		CE70995D28D1EFC800CD71EB /* CoffeeMachine */ = {
 			isa = PBXGroup;
 			children = (
+				CE85FE1A28D33CD400D341FD /* Views */,
 				CE7099B728D27D3E00CD71EB /* ViewModel */,
 				CE7099AE28D2789900CD71EB /* Models */,
-				CE70999428D1F08800CD71EB /* Views */,
 				CE7099A828D2753700CD71EB /* WebService */,
 				CE70995E28D1EFC900CD71EB /* AppDelegate.swift */,
 				CE70996028D1EFC900CD71EB /* SceneDelegate.swift */,
@@ -143,15 +143,6 @@
 			path = CoffeeMachineUITests;
 			sourceTree = "<group>";
 		};
-		CE70999428D1F08800CD71EB /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				CE70999528D1F0C300CD71EB /* OrderListVC.swift */,
-				CE70999D28D1F0DB00CD71EB /* CreateOrderVC.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		CE7099A828D2753700CD71EB /* WebService */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +167,15 @@
 				CE7099C228D3063400CD71EB /* AddCoffeeViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE85FE1A28D33CD400D341FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE85FE1B28D33D0700D341FD /* CreateOrderVC.swift */,
+				CE85FE1C28D33D0700D341FD /* OrderListVC.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,11 +308,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE7099B028D278A700CD71EB /* Model.swift in Sources */,
+				CE85FE1E28D33D0700D341FD /* OrderListVC.swift in Sources */,
 				CE7099AA28D2755700CD71EB /* WebService.swift in Sources */,
 				CE7099C328D3063400CD71EB /* AddCoffeeViewModel.swift in Sources */,
-				CE70999E28D1F0DB00CD71EB /* CreateOrderVC.swift in Sources */,
 				CE7099BE28D27DA000CD71EB /* OrderListViewModel.swift in Sources */,
-				CE70999628D1F0C300CD71EB /* OrderListVC.swift in Sources */,
+				CE85FE1D28D33D0700D341FD /* CreateOrderVC.swift in Sources */,
 				CE70995F28D1EFC900CD71EB /* AppDelegate.swift in Sources */,
 				CE70996128D1EFC900CD71EB /* SceneDelegate.swift in Sources */,
 				CE70996928D1EFC900CD71EB /* CoffeeMachine.xcdatamodeld in Sources */,
